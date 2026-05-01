@@ -7,6 +7,5 @@ export default defineConfig({
   define: {
     global: 'window',
   },
-  host: true,
-  port: 5173
+
 })
