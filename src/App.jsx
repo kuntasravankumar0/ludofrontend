@@ -4,6 +4,7 @@ import Ludo from './ludo/pages/Ludo';
 import Lobby from './ludo/pages/Lobby';
 import GameBoardPage from './ludo/pages/GameBoardPage';
 import Home from './ludo/pages/Home';
+import Footer from './ludo/pages/Footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Route path="/ludo" element={<Ludo />} />
           <Route path="/lobby/:roomCode" element={<Lobby />} />
           <Route path="/game/:roomCode" element={<GameBoardPage />} />
-        </Routes>
+
+        </Routes>     <Footer />
       </BrowserRouter>
     </GameProvider>
   );
