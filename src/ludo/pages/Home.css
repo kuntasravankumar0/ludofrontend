@@ -78,13 +78,15 @@ body,
 
 .hero-title span {
     display: block;
-
     background: linear-gradient(90deg,
             #3b82f6,
             #60a5fa,
             #93c5fd);
 
+    background-clip: text;
     -webkit-background-clip: text;
+
+    color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
